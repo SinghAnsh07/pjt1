@@ -1,0 +1,95 @@
+# ==============================================================================
+# Git Ignore Configuration for Audio Deepfake Detection Research & App
+# ==============================================================================
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions & build directories
+*.so
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+*.cover
+.hypothesis/
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Operating System & IDE artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# LaTeX auxiliary & temporary build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Executables & binary tool downloads (e.g. tectonic engine)
+*.exe
+*.dll
+*.dylib
+tools/
+
+# Heavy feature datasets & NumPy matrices (>100MB exceeds GitHub limits)
+results_v1/asvspoof_features_v2.zip
+results_v1/features_v2/
+*.npy
+
+# Redundant zip dumps (v7_deepfake_app is tracked uncompressed as code)
+v7_deepfake_app.zip
+*.zip
+!v4/best_v4_s2024.zip
+
+# Redundant pre-organization backup snapshots & scratchpad files
+backups/
+scratch/

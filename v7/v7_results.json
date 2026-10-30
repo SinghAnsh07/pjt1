@@ -1,0 +1,13 @@
+{
+  "experiment": "v7_2d_frft_wavelet_lcnn",
+  "representation": "3-Channel 2D Spectrogram (ST-FrFT alpha=0.5, ST-FrFT alpha=0.85, Wavelet Scalogram)",
+  "architecture": "LCNN-2D with MFM-2D activations (170k params)",
+  "loss": "One-Class Softmax (OC-Softmax)",
+  "metrics": {
+    "best_dev_eer": 3.1397174254336755,
+    "eval_eer": 9.24541128484029,
+    "eval_auc": 0.9495586196260777,
+    "eval_accuracy": 90.75480438536154,
+    "eval_balanced_accuracy": 90.75470896576373
+  }
+}

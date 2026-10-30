@@ -1,0 +1,51 @@
+{
+  "experiment": "v5_oc_softmax",
+  "input_dim": 704,
+  "loss": {
+    "type": "OC-Softmax",
+    "alpha": 20.0,
+    "m_real": 0.9,
+    "m_fake": 0.2
+  },
+  "ensemble": {
+    "num_seeds": 3,
+    "seeds": [
+      42,
+      2024,
+      7
+    ],
+    "dev_eer": 5.729984301412844,
+    "dev_auc": 0.9857854419402935,
+    "eval_eer": 10.45834507386807,
+    "eval_auc": 0.9526204319908236
+  },
+  "per_seed": [
+    {
+      "seed": 42,
+      "best_epoch": 19,
+      "dev_eer": 5.619842124309309,
+      "dev_auc": 0.9845448814410255,
+      "eval_eer": 10.546006699777385,
+      "eval_auc": 0.9498929035351145,
+      "ckpt_path": "/kaggle/working/best_v5_s42.pt"
+    },
+    {
+      "seed": 2024,
+      "best_epoch": 16,
+      "dev_eer": 5.664693218573033,
+      "dev_auc": 0.9839567212991017,
+      "eval_eer": 10.466172004536507,
+      "eval_auc": 0.9518422051994191,
+      "ckpt_path": "/kaggle/working/best_v5_s2024.pt"
+    },
+    {
+      "seed": 7,
+      "best_epoch": 40,
+      "dev_eer": 5.669178327966376,
+      "dev_auc": 0.983382959977897,
+      "eval_eer": 10.508437431465211,
+      "eval_auc": 0.9488840254436657,
+      "ckpt_path": "/kaggle/working/best_v5_s7.pt"
+    }
+  ]
+}
