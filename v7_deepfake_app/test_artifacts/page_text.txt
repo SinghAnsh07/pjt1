@@ -1,0 +1,26 @@
+Deploy
+🎙️
+V7 Audio Analyzer
+Audio authenticity screening
+Processed on this device
+Model: V7 LCNN-2D
+Understand what an audio recording may reveal.
+Analyze audio for acoustic patterns associated with genuine or AI-generated speech. Results are indicative, not definitive proof.
+ℹ️ Supported Uploads: WAV, FLAC, MP3, OGG, and AIFF files are natively supported. Video files (.mp4, .mov) and .m4a require external FFmpeg, which is currently unavailable on this system.
+Choose an audio recording
+Drag and drop file here
+Limit 200MB per file • WAV, FLAC, MP3, OGG, AIFF, AIF
+Browse files
+👈 Select or drop an audio file above to begin screening.
+🔬
+What the Analysis Examines: Forensic Methodology & Architecture
+Explore the verified signal processing and deep neural representations behind the V7 LCNN-2D authenticity pipeline.
+🔒
+Local Processing
+Your recording is processed locally by this application. The app is designed to avoid sending audio to external services. All neural inference and feature extraction execute directly on your machine.
+⚠️
+Important Limitations
+This tool provides an automated screening result, not definitive proof of authenticity. Noise, compression, recording conditions, and unfamiliar speech-generation methods may affect the result. The candidate threshold (0.4820) is unvalidated for general real-world use.
+🔒 Local Privacy Guarantee: All audio decoding and neural network inference execute locally on your machine. No waveforms, audio files, or metadata are transmitted to external servers or cloud services.
+
+⚠️ Limitations & Ethical Use: This application is a machine-learning screening tool designed for research evaluation. The V7 model was trained on the ASVspoof 2019 dataset. Acoustic variations caused by strong compression (e.g. messaging apps), background noise, heavy reverberation, or microphone anomalies may affect scores. Its output should not be treated as definitive legal proof of authenticity or synthetic fabrication.

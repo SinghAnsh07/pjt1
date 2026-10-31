@@ -1,0 +1,11 @@
+# V7 Audio Deepfake Detection Application - Runtime Dependencies
+# Supported on Python 3.10+ (tested on Python 3.12.6, Windows AMD64)
+# Standard PyPI packages; does not require custom index URLs
+
+torch==2.9.1
+numpy==1.26.4
+scipy==1.15.3
+soundfile==0.14.0
+streamlit==1.52.2
+matplotlib==3.9.0
+reportlab==5.0.1

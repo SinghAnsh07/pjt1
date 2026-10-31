@@ -1,0 +1,6 @@
+# V7 Audio Deepfake Detection Application - Developer & QA Test Dependencies
+# Used for running pytest test suite and PyMuPDF PDF visual layout validation
+
+-r requirements.txt
+pytest==6.2.5
+pymupdf==1.24.1
