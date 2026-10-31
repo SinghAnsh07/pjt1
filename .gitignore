@@ -90,6 +90,8 @@ v7_deepfake_app.zip
 *.zip
 !v4/best_v4_s2024.zip
 
-# Redundant pre-organization backup snapshots & scratchpad files
+# Redundant pre-organization backup snapshots, scratchpad files, & audits
 backups/
 scratch/
+audits/
+
